@@ -14,6 +14,11 @@
 # > 07.Reading-writing-files\test.txt
 
 stream = open('demo.txt', 'rt')
+# quick test:
+print(stream.read())
+
+print("*** More Examples ***")
+
 # NOTES:
 # 1. The mode 'rt' is the default for text file reading => it's optional
 # 2. mode "rt" requires the file to be exists, otherwise:

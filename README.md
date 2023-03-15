@@ -287,6 +287,49 @@ The ["with"](https://docs.python.org/3/reference/compound_stmts.html#with) state
 
 **Check the code examples for better understanding**
 
+# 9-Web Scraping
+Is one of the way to be used for collecting data online. Getting (scraping) data from a website, like getting the data about the headings, the posts in a web page. For example going to a news website and getting the data about head news, the market, the weather, etc...
+
+Web Scraping Can be used by Search Engines to get a data from a website to analyze its contents and what types of information it has. Or getting some data to be used. Notice that some websites allow web scraping and some don't. 
+
+## Web Scraping Steps:
+The main steps for "Web Scraping":
+1. GET => Sending a request to a website with get query
+    - Will return an HTML document that contains all the information in this website
+2. Parsing => Parsing the returned HTML document, by extracting the wanted content and ignore the rest
+    - Isolating the wanted data and save/store it in any format we prefer
+
+## Libraries used for Web Scraping 
+Python has various types of libraries that can be used for different purposes, with Web Scraping, we have different libraries:
+- Selenium
+- Requests
+- BeautifulSoup
+- Pandas
+- lxml
+
+For a basic understanding of a web scraping, we can use:
+- Requests => the basic initial library to make a request to a website which is creating the GET query
+    - [Requests: HTTP for Humans](https://requests.readthedocs.io/en/latest/)
+    - [requests 2.28.2](https://pypi.org/project/requests/)
+- lxml => for processing the HTML
+    - [lxml - XML and HTML with Python](https://lxml.de/)
+    - [lxml 4.9.2](https://pypi.org/project/lxml/)
+- BeautifulSoup => the major one to generate a readable HTML document
+    - [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+    - [beautifulsoup4 4.11.2](https://pypi.org/project/beautifulsoup4/)
+
+After receiving the package, we can decide whether to save it as CSV or as an HTML for example.
+
+## Prepare your environment
+As we discussed before, it will be a good practice to create a virtual environment, then install and run the required packages inside it. Refer to the read me fie for this repo ["Python Modules and Packages"](https://github.com/anmarjarjees/python-modules-packages) for more explanations.
+
+## Coding
+1- Importing the "requests" and "bs4"
+2- Requesting for a website
+3- Using BS to parse the received content
+4- Continue the rest by reading the code file
+
+
 ## Resources, References, and Credits:
 - [Christopher Harrison](https://github.com/GeekTrainer) Senior Enterprise Advocate at GitHub.
 - [Susan Ibach](https://github.com/hockeygeekgirl) Head of Amazon Future Engineer Canada at Amazon
