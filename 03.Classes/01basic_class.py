@@ -4,13 +4,13 @@ class Instructor():
     Starting with a constructor __init__ 
     for creating an instance/object of this class => constructing an object
 
-    two underscores int two underscores
+    two underscores init two underscores
 
     The first/mandatory parameter in any function/method inside a class is "self"
     which is similar to the keyword "this" in other programming languages.
 
     self will give us the access to the current instance of an object
-    after the "self" we can start listing any other additional parameter that we need 
+    after the "self" we can start listing any other additional  parameter(s)  that we need 
 
     """
 

@@ -14,7 +14,7 @@ The programs code are listed as the 3rd element in every line
 using the one space as delimiter
 
 So we can use a built-in method/function for the string named "split()" :-) 
-This function returns a list of the words in the string, using sep as the delimiter string.
+This function returns a list of the words in the string, using space as the delimiter string.
 
 IMPORTANT NOTE:
 After reading the entire file, the cursor will stop at the end of the last line in the file,
@@ -63,7 +63,7 @@ for line in prog_file:
 cstn_file = open('CSTN.txt', 'wt')
 
 # Move back to the start of the file stream
-prog_file .seek(0)
+prog_file.seek(0)
 
 for line in prog_file:
     # split each line based on the spaces
